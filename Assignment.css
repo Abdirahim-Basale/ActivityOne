@@ -15,7 +15,7 @@ body{
     overflow: hidden;   
 }
 .first{
-    margin: 200px;
+    margin: 10%;
     background-color: rgb(45, 45, 51);
     border: 2px;
     border-radius: 2px;
@@ -59,4 +59,16 @@ button{
     width: 137px;
     height: 29px;
     margin-right: 10px;
+}
+@media only screen and (max-width:1020px) {
+    .first{
+        margin: 10%;
+        /* display: grid; */
+        place-items: center;
+        background-color: rgb(45, 45, 51);
+        border: 2px;
+        border-radius: 2px;
+        padding: 15px;
+        border: 2px solid yellow; 
+    }        
 }
