@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    font-size: 16px;
+    display: grid;
+    height:100% ;
+    place-items: center;
+    background-color: grey; 
+    color: white; 
+    overflow: hidden;   
+}
+.first{
+    margin: 200px;
+    background-color: rgb(45, 45, 51);
+    border: 2px;
+    border-radius: 2px;
+    padding: 15px;
+    border: 2px solid yellow; 
+}
+p{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+label{
+    display: block;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    background-color: darkcyan;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.login{
+    width: 300px;
+    background-color: rgb(243, 227, 10);
+    color: black;
+    height: 35px;
+}
+.pair button{
+    width: 137px;
+    height: 29px;
+    margin-right: 10px;
+}
